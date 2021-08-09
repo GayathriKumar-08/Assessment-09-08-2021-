@@ -1,0 +1,22 @@
+{
+  "createacc": [
+    {
+      "firstname": "sujatha",
+      "lastname": "kumaresan",
+      "age": 30,
+      "email": "suja@gmail.com",
+      "address": "2nd street chennai-11",
+      "phonenumber": "9840928815",
+      "id": 1
+    },
+    {
+      "firstname": "keerthi",
+      "lastname": "kumar",
+      "age": 25,
+      "email": "keerthikumar@gmail.com",
+      "address": "4rth street chennai-15",
+      "phonenumber": "9600059488",
+      "id": 2
+    }
+  ]
+}

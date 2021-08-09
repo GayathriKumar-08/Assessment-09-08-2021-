@@ -1,0 +1,143 @@
+.navbar 
+{
+    width:100%;
+    height:100px;
+    background-color: #158fad;
+    padding: 10px;
+    color: black;
+}
+img{
+    
+    width:80px;
+    height:80px;
+    margin-left: 30px;
+}.lab
+{
+    color:white;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 2px solid grey;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    margin-left:300px;
+    border:2px solid black;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color:  black;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #7a7b7c
+}
+
+.box button[type="submit"] {
+    border: 0;
+    background-color:#158fad;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #158fad;
+    padding: 14px 40px;
+    outline: none;
+    color:  white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box button[type="submit"]:hover {
+    background: #7a7b7c;
+    border: 2px solid #7a7b7c;
+    color:white;
+  
+}
+.linktag
+{
+   color:white;
+   padding:10px;
+   font-size: 17px;
+}
+.linktag:hover
+{
+   background-color:rgb(182, 231, 241);
+}
+.tableform
+{
+    margin-top: 60px;
+    margin-left: 30px;
+    width:1200px;
+    height:200px;
+}
+.dropbtn {
+  background-color: #158fad;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content link:hover {background-color: rgb(42, 166, 190);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(182, 231, 241);
+    color:rgb(5, 20, 104)
+}
+.tabform
+{
+    border:1px solid #158fad;
+}
